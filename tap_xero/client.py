@@ -199,6 +199,7 @@ class XeroClient():
         ######################################################
         #                       PATCHED                      #
         ######################################################
+        # TODO making this patch a configuration
         # Tap Xero does not support custom connection as of this patch, as a work around we replaced code flow auth with client credentials auth
         # https://developer.xero.com/documentation/guides/oauth2/custom-connections
         post_body = {
